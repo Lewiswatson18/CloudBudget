@@ -67,7 +67,8 @@ a {
 
 #two {
     min-height: 660px;
-    background-color: whitesmoke;
+    background-color: #FAFAFA;
+    ;
 
     text-align: center;
 }
@@ -83,27 +84,52 @@ img {
     position: relative;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
+.clearfix {
+
     display: flex;
-    flex-direction: column;
+
 
 }
 
 .text {
-    background-color: orange;
+    background-color: white;
     position: absolute;
     left: 50%;
     Transform: translateX(-50%);
     top: 60%;
     width: 60%;
+    border-radius: 15px;
+
 
 }
 
 .size {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    text-align: center;
 
+}
+
+
+
+
+@media (max-width:800px) {
+    .clearfix {
+        content: "";
+        clear: both;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container {
+
+        width: 90%;
+
+        position: relative;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 20%;
+
+    }
 }
 
 
@@ -135,6 +161,9 @@ img {
     #two {
         min-height: 200px;
     }
+
+
+
 
 
 }
