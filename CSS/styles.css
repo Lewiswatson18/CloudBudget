@@ -80,6 +80,7 @@ img {
     float: left;
     width: 33.33%;
     padding: 5%;
+    position: relative;
 }
 
 .clearfix::after {
@@ -88,9 +89,19 @@ img {
     display: table;
 }
 
-.text,
-h2 {
-    padd
+.text {
+    background-color: orange;
+    position: absolute;
+    left: 50%;
+    Transform: translateX(-50%);
+    top: 60%;
+    width: 60%;
+
+}
+
+.size {
+    padding-bottom: 10px;
+
 }
 
 
