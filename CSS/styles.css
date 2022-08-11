@@ -86,7 +86,9 @@ img {
 .clearfix::after {
     content: "";
     clear: both;
-    display: table;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .text {
