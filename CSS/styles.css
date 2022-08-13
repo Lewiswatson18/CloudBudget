@@ -109,6 +109,28 @@ img {
 
 }
 
+#three {
+    text-align: center;
+}
+
+.clearfix2 {
+
+    display: flex;
+
+
+
+}
+
+.img-container2 {
+    float: left;
+    width: 25%;
+    padding: 5%;
+    position: relative;
+}
+
+
+
+
 
 
 
