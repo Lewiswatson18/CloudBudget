@@ -4,18 +4,8 @@
     box-sizing: border-box;
 
 
+
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .hero-img {
 
@@ -25,7 +15,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     justify-content: center;
     padding-bottom: 90px;
 
@@ -309,6 +298,10 @@ footer h2 {
     .align-text2 {
 
         max-width: 60%;
+    }
+
+    footer h2 {
+        font-size: medium;
     }
 }
 
