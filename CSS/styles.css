@@ -89,6 +89,7 @@ img {
     display: flex;
 
 
+
 }
 
 .text {
@@ -157,6 +158,21 @@ img {
 footer {
     background-color: #FAFAFA;
     min-height: 245px;
+    max-height: 245px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    justify-content: center;
+}
+
+footer h2 {
+    padding-bottom: 20px;
+
+}
+
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -165,7 +181,7 @@ footer {
 
 
 
-@media (max-width:800px) {
+@media (max-width:1200px) {
     .clearfix {
         content: "";
         clear: both;
@@ -175,17 +191,39 @@ footer {
 
     .img-container {
 
-        width: 90%;
-
-        position: relative;
+        width: 70%;
         justify-content: center;
         margin: auto;
-        padding-bottom: 20%;
+        padding-bottom: 15%;
 
+    }
+
+    .text {
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        Transform: translateX(-50%);
+        top: 60%;
+        width: 75%;
+        border-radius: 15px;
     }
 }
 
+@media (max-width:800px) {
+    .text {
 
+        position: relative;
+        width: auto;
+    }
+
+    .img-container {
+        padding: 5%;
+
+
+
+
+    }
+}
 
 @media (max-width:600px) {
     .hero-img {
@@ -215,8 +253,15 @@ footer {
         min-height: 200px;
     }
 
+    .img-container {
+        padding: 5%;
+        width: 75%;
 
+    }
+}
 
-
-
+@media (max-width:450px) {
+    .img-container {
+        width: 85%;
+    }
 }
