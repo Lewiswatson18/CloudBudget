@@ -90,6 +90,7 @@ img {
 
 
 
+
 }
 
 .text {
@@ -112,21 +113,28 @@ img {
 
 #three {
     text-align: center;
+    justify-content: center;
 }
 
 .clearfix2 {
 
     display: flex;
-
-
+    justify-content: center;
 
 }
+
+.text2 {
+    justify-content: center;
+    justify-content: center;
+}
+
 
 .img-container2 {
     float: left;
     width: 25%;
     padding: 5%;
     position: relative;
+    justify-content: center;
 }
 
 #four {
@@ -241,6 +249,15 @@ footer h2 {
         min-height: 300px;
     }
 
+    .text2 {
+        font-size: small;
+    }
+
+    .text2,
+    h2 {
+        font-size: small;
+    }
+
     #one {
         display: flex;
         flex-wrap: wrap;
@@ -320,5 +337,14 @@ footer h2 {
     .видео {
         max-width: 90%;
         padding-top: 0;
+    }
+
+    .text2 {
+        font-size: x-small;
+    }
+
+    .text2,
+    h2 {
+        font-size: x-small;
     }
 }
