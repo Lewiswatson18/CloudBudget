@@ -218,10 +218,10 @@ footer h2 {
 
     .img-container {
         padding: 5%;
+    }
 
-
-
-
+    .king {
+        max-width: 70%;
     }
 }
 
@@ -258,10 +258,30 @@ footer h2 {
         width: 75%;
 
     }
+
+    .king {
+        max-width: 50%;
+    }
+
+    .align-text {
+
+        max-width: 60%;
+    }
 }
 
 @media (max-width:450px) {
     .img-container {
         width: 85%;
+    }
+
+    .king {
+        max-width: 60%;
+        padding-top: 0;
+    }
+
+    .align-text {
+
+        max-width: 70%;
+        padding-bottom: 0;
     }
 }
